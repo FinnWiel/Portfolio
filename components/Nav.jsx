@@ -43,7 +43,7 @@ export default function Nav() {
                 <Link href="/work">Projects</Link>
             </li>
             <li className='p-4'>
-                <Link href="/">Hobby's</Link>
+                <Link href="/hobbys">Hobby's</Link>
             </li>
             <li className='p-4'>
                 <Link href="/contact">Contact</Link>
@@ -65,7 +65,7 @@ export default function Nav() {
                 <Link onClick={handleNav} href="/work">Projects</Link>
             </li>
             <li className='p-4 text-2xl hover:font-bold text-white'>
-                <Link onClick={handleNav} href="/">Hobby's</Link>
+                <Link onClick={handleNav} href="/hobbys">Hobby's</Link>
             </li>
             <li className='p-4 text-2xl hover:font-bold text-white'>
                 <Link onClick={handleNav} href="/contact">Contact</Link>

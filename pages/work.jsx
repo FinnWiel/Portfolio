@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Hero from '../components/Hero'
 import Project from '../components/Project'
 import { SiTailwindcss, SiNextdotjs, SiFirebase } from 'react-icons/si'
-import { DiJsBadge, DiHtml5, DiCss3 } from 'react-icons/di'
+import { DiJsBadge, DiHtml5, DiCss3, DiReact } from 'react-icons/di'
 
 const work = () => {
   return (
@@ -26,7 +26,15 @@ const work = () => {
               ProjectIcon2={ <SiNextdotjs size={30} />} 
               ProjectIcon3={ <SiFirebase size={30} />}
               />
-        <Project ProjectTitle='Todo List'
+        <Project ProjectTitle='Movie App'
+              ProjectText='This is a Movie App usng an API to lookup movies in the database. You ccan search via title and it will show all the movies in that database to you on the displayed cards. When you hover over the cards it displays some additional information about the movie or series!' 
+              ProjectImg="garf.png"
+              ProjectGithub="/"
+              ProjectLink="/"
+              ProjectIcon1={<DiReact size={35} />}
+              ProjectIcon3={ <DiCss3 size={30}/> }
+              />
+        <Project ProjectTitle='Todo'
               ProjectText='This is a TODO app I made using HTML CSS and JavaScript. You can make a TODO-item and it will store it in your broweser so when you refresh the page it is still there. You can log 2 different types of TODOs, work and personal. Make your own todo list and organize all of your tasks!' 
               ProjectImg="td.png"
               ProjectGithub="/"
@@ -35,6 +43,7 @@ const work = () => {
               ProjectIcon2={ <DiHtml5 size={30}/> }
               ProjectIcon3={ <DiCss3 size={30}/> }
               />
+        
     </div>
   )
 }

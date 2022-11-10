@@ -1,8 +1,12 @@
 import Form from '../components/Form';
+import Hero from '../components/Hero';
 
 export default function contact() {
   return (
-    <Form />
+    <div>
+      <Hero heading="Contact" message='Contact me!' link='/' linkcontent='Home' />
+      <Form />
+    </div>
   );
 };
 
