@@ -36,16 +36,16 @@ export default function Nav() {
         </Link>
         <ul style={{ color: `${textColor}` }}
         className='hidden sm:flex'>
-            <li className='p-4'>
+            <li className='p-4 hover:font-bold'>
                 <Link href="/">Home</Link>
             </li>
-            <li className='p-4'>
+            <li className='p-4 hover:font-bold'>
                 <Link href="/work">Projects</Link>
             </li>
-            <li className='p-4'>
+            <li className='p-4 hover:font-bold'>
                 <Link href="/hobbys">Hobby's</Link>
             </li>
-            <li className='p-4'>
+            <li className='p-4 hover:font-bold'>
                 <Link href="/contact">Contact</Link>
             </li>
         </ul>

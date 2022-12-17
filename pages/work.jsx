@@ -43,6 +43,15 @@ const work = () => {
               ProjectIcon2={ <DiHtml5 size={30}/> }
               ProjectIcon3={ <DiCss3 size={30}/> }
               />
+        <Project ProjectTitle='About me'
+              ProjectText='This is a simple website I made for a school project.' 
+              ProjectImg="adwe.png"
+              ProjectGithub="/"
+              ProjectLink="https://adwe.vercel.app/#"
+              ProjectIcon1={ <DiJsBadge size={30}/> }
+              ProjectIcon2={ <DiHtml5 size={30}/> }
+              ProjectIcon3={ <DiCss3 size={30}/> }
+              />
         
     </div>
   )

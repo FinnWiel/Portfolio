@@ -10,8 +10,8 @@ const Hero = ({heading, message, link, linkcontent}) => {
       <div className='p-5 text-white z-[2] mt-[-10rem] flex flex-col justify-center items-center'>
         <h2 className='sm:text-6xl lg:text-8xl mt-20 text-4xl font-bold'>{heading}</h2>
         <p className='py-5 text-xl'>{message}</p>
-        <button className='px-8 py-2 border rounded-lg'>
-        <Link href={link}>
+        <button className='px-8 py-2 border rounded-lg hover:border-zinc-300 hover:text-zinc-300'>
+        <Link className='' href={link}>
         {linkcontent}
         </Link>
         </button>
