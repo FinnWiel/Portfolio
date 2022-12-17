@@ -44,7 +44,7 @@ const work = () => {
               ProjectIcon3={ <DiCss3 size={30}/> }
               />
         <Project ProjectTitle='About me'
-              ProjectText='This is a simple website I made for a school project.' 
+              ProjectText='This is a simple website I made for a school project. There is some information about me, but it was maily test for some javascript I wanted to try out.' 
               ProjectImg="adwe.png"
               ProjectGithub="/"
               ProjectLink="https://adwe.vercel.app/#"
